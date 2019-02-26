@@ -1,0 +1,24 @@
+--cpu Cortex-M3
+"us-trial\startup_stm32f103xb.o"
+"us-trial\dwt_stm32_delay.o"
+"us-trial\main.o"
+"us-trial\stm32f1xx_it.o"
+"us-trial\stm32f1xx_hal_msp.o"
+"us-trial\stm32f1xx_hal_gpio_ex.o"
+"us-trial\stm32f1xx_hal_tim.o"
+"us-trial\stm32f1xx_hal_tim_ex.o"
+"us-trial\stm32f1xx_hal_uart.o"
+"us-trial\stm32f1xx_hal.o"
+"us-trial\stm32f1xx_hal_rcc.o"
+"us-trial\stm32f1xx_hal_rcc_ex.o"
+"us-trial\stm32f1xx_hal_gpio.o"
+"us-trial\stm32f1xx_hal_dma.o"
+"us-trial\stm32f1xx_hal_cortex.o"
+"us-trial\stm32f1xx_hal_pwr.o"
+"us-trial\stm32f1xx_hal_flash.o"
+"us-trial\stm32f1xx_hal_flash_ex.o"
+"us-trial\system_stm32f1xx.o"
+--library_type=microlib --strict --scatter "US-trial\US-trial.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "US-trial.map" -o US-trial\US-trial.axf
