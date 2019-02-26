@@ -1,4 +1,4 @@
-GPS targeted, color board reaching robotic car using an ARM processor microcontroller
+GPS targeted, color board reaching robotic car using an ARM processor microcontroller.  
 Design Details in the report
 
 Team Members:  
